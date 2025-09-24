@@ -1,0 +1,395 @@
+/* Registration Page Styles */
+.registration-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 2rem;
+}
+
+.registration-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+  padding: 3rem;
+  width: 100%;
+  max-width: 800px;
+  animation: slideUp 0.6s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.registration-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.registration-header h2 {
+  color: #ffffff;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* Step Indicator */
+.step-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.step {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ecf0f1;
+  color: #7f8c8d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.step.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.step-line {
+  width: 60px;
+  height: 2px;
+  background-color: #ecf0f1;
+  margin: 0 10px;
+}
+
+.registration-header p {
+  color: #7f8c8d;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+/* Form Styles */
+.registration-form {
+  margin-bottom: 2rem;
+}
+
+.registration-form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.registration-form .form-label {
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.registration-form .form-input,
+.registration-form .form-select,
+.registration-form .form-textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid #ecf0f1;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background-color: #f8f9fa;
+}
+
+.registration-form .form-input:focus,
+.registration-form .form-select:focus,
+.registration-form .form-textarea:focus {
+  outline: none;
+  border-color: #667eea;
+  background-color: white;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.registration-form .form-textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.registration-form .btn {
+  width: 100%;
+  padding: 14px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+/* Face Capture Section */
+.face-capture-section {
+  text-align: center;
+}
+
+.face-capture-instructions {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 10px;
+  border: 1px solid #dee2e6;
+}
+
+.face-capture-instructions h3 {
+  color: #495057;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.face-capture-instructions p {
+  color: #6c757d;
+  margin-bottom: 1rem;
+}
+
+.face-capture-instructions ul {
+  text-align: left;
+  max-width: 300px;
+  margin: 0 auto;
+  color: #6c757d;
+}
+
+.face-capture-instructions li {
+  margin-bottom: 0.5rem;
+}
+
+/* Camera Section */
+.camera-section {
+  margin-bottom: 2rem;
+}
+
+.camera-placeholder {
+  padding: 3rem;
+  border: 3px dashed #dee2e6;
+  border-radius: 12px;
+  background-color: #0f0f23;
+}
+
+.camera-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  opacity: 0.5;
+}
+
+.camera-placeholder p {
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+/* Webcam Container */
+.webcam-container {
+  position: relative;
+  display: inline-block;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+}
+
+.webcam {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+}
+
+.camera-controls {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 1rem;
+}
+
+.camera-controls .btn {
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  min-width: auto;
+  width: auto;
+  margin: 0;
+}
+
+/* Captured Image */
+.captured-image-container {
+  display: inline-block;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+}
+
+.captured-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+}
+
+.image-controls {
+  padding: 1.5rem;
+  background: white;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.image-controls .btn {
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  min-width: auto;
+  width: auto;
+  margin: 0;
+}
+
+/* Step Navigation */
+.step-navigation {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #ecf0f1;
+}
+
+.step-navigation .btn {
+  width: auto;
+  padding: 10px 24px;
+  margin: 0;
+}
+
+/* Footer */
+.registration-footer {
+  text-align: center;
+  padding-top: 1.5rem;
+  border-top: 1px solid #ecf0f1;
+}
+
+.registration-footer p {
+  color: #7f8c8d;
+  margin-bottom: 0;
+}
+
+.login-link {
+  color: #667eea;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.login-link:hover {
+  color: #764ba2;
+  text-decoration: underline;
+}
+
+/* Grid System for Registration */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .registration-container {
+    padding: 1rem;
+  }
+  
+  .registration-card {
+    padding: 2rem;
+    max-width: 100%;
+  }
+  
+  .registration-header h2 {
+    font-size: 1.75rem;
+  }
+  
+  .col-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  
+  .row {
+    margin: 0;
+  }
+  
+  .col-6 {
+    padding: 0;
+  }
+  
+  .step-indicator {
+    margin: 0.5rem 0;
+  }
+  
+  .step {
+    width: 35px;
+    height: 35px;
+    font-size: 0.9rem;
+  }
+  
+  .step-line {
+    width: 40px;
+  }
+  
+  .webcam {
+    max-width: 100%;
+  }
+  
+  .camera-controls {
+    position: static;
+    transform: none;
+    margin-top: 1rem;
+    justify-content: center;
+  }
+  
+  .image-controls {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .image-controls .btn,
+  .camera-controls .btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .registration-card {
+    padding: 1.5rem;
+  }
+  
+  .registration-header h2 {
+    font-size: 1.5rem;
+  }
+  
+  .face-capture-instructions {
+    padding: 1rem;
+  }
+  
+  .camera-placeholder {
+    padding: 2rem 1rem;
+  }
+  
+  .camera-icon {
+    font-size: 3rem;
+  }
+}

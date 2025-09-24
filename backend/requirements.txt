@@ -1,0 +1,22 @@
+# Core Django packages
+Django==4.2.7
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+
+# Image processing - using flexible version to avoid build issues
+Pillow>=10.0.0
+
+# Scientific computing
+numpy>=1.24.0
+
+# Computer vision
+opencv-python>=4.8.0
+
+# Face recognition with DeepFace
+deepface>=0.0.79
+tensorflow>=2.13.0
+tf-keras>=2.13.0
+
+# Build tools for better compatibility
+setuptools>=65.0.0
+wheel>=0.38.0

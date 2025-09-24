@@ -1,0 +1,118 @@
+MIT License
+
+Copyright (c) 2024 Facial Recognition Attendance System Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Third-Party Licenses
+
+This project uses several third-party libraries and frameworks. Below are their respective licenses:
+
+### Django
+- License: BSD 3-Clause License
+- Copyright: Django Software Foundation
+- URL: https://github.com/django/django/blob/main/LICENSE
+
+### React
+- License: MIT License
+- Copyright: Facebook, Inc. and its affiliates
+- URL: https://github.com/facebook/react/blob/main/LICENSE
+
+### TensorFlow
+- License: Apache License 2.0
+- Copyright: The TensorFlow Authors
+- URL: https://github.com/tensorflow/tensorflow/blob/master/LICENSE
+
+### DeepFace
+- License: MIT License
+- Copyright: Sefik Ilkin Serengil
+- URL: https://github.com/serengil/deepface/blob/master/LICENSE
+
+### OpenCV
+- License: Apache License 2.0
+- Copyright: OpenCV team
+- URL: https://github.com/opencv/opencv/blob/4.x/LICENSE
+
+### NumPy
+- License: BSD 3-Clause License
+- Copyright: NumPy Developers
+- URL: https://github.com/numpy/numpy/blob/main/LICENSE.txt
+
+### Pillow
+- License: HPND License
+- Copyright: Jeffrey A. Clark (Alex) and contributors
+- URL: https://github.com/python-pillow/Pillow/blob/main/LICENSE
+
+### Axios
+- License: MIT License
+- Copyright: Matt Zabriskie
+- URL: https://github.com/axios/axios/blob/main/LICENSE
+
+### Chart.js
+- License: MIT License
+- Copyright: Chart.js Contributors
+- URL: https://github.com/chartjs/Chart.js/blob/master/LICENSE.md
+
+---
+
+## Attribution
+
+This project includes or may include code, algorithms, or techniques inspired by:
+
+1. **Face Recognition Research**: Various academic papers and research in the field of computer vision and facial recognition
+2. **Open Source Community**: Contributions and examples from the broader open source community
+3. **Machine Learning Models**: Pre-trained models and architectures from the ML research community
+
+## Important Disclaimers
+
+### Educational and Research Use
+This software is provided primarily for educational and research purposes. Commercial use should be carefully evaluated for legal compliance.
+
+### User Responsibilities
+Users are responsible for:
+
+1. **Privacy Compliance**: Ensuring compliance with local privacy laws and regulations (GDPR, CCPA, PIPEDA, etc.)
+2. **Consent Management**: Obtaining proper informed consent from individuals whose biometric data is processed
+3. **Data Security**: Implementing appropriate security measures for biometric data storage, processing, and transmission
+4. **Ethical Use**: Using the software in an ethical manner that respects individual privacy and rights
+5. **Legal Compliance**: Ensuring compliance with local laws regarding biometric data collection and processing
+6. **Data Retention**: Implementing appropriate data retention and deletion policies
+7. **Access Control**: Ensuring only authorized personnel have access to biometric data
+
+### Liability Limitation
+The authors and contributors of this project are not responsible for:
+- Any misuse of the software
+- Legal issues arising from its use
+- Data breaches or security incidents
+- Compliance violations
+- Any damages resulting from the use of this software
+
+### Biometric Data Considerations
+This software processes biometric data (facial recognition). Users must:
+- Understand the sensitive nature of biometric data
+- Implement appropriate safeguards
+- Comply with applicable biometric privacy laws
+- Provide clear privacy notices to data subjects
+- Allow for data subject rights (access, deletion, etc.)
+
+## Contact
+
+For questions about licensing or to report license violations, please contact the project maintainers through the project's GitHub repository.

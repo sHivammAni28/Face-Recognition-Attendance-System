@@ -1,0 +1,20 @@
+# Windows-optimized requirements with pre-compiled wheels
+Django==4.2.7
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+Pillow==10.1.0
+numpy==1.24.3
+
+# OpenCV - use headless version for better compatibility
+opencv-python-headless==4.8.1.78
+
+# dlib - use pre-compiled wheel for Windows
+# Install from: https://github.com/z-mahmud22/Dlib_Windows_Python3.x
+# Or use: pip install https://github.com/jloh02/dlib/releases/download/v19.22/dlib-19.22.99-cp311-cp311-win_amd64.whl
+
+# face_recognition - install after dlib
+# face_recognition==1.3.0
+
+# Alternative face recognition libraries if face_recognition fails
+# deepface==0.0.79
+# mtcnn==0.1.1

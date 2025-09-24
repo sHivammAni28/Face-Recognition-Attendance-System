@@ -1,4 +1,4 @@
-# 🎯 Facial Recognition Attendance System
+# 🎯 Face Recognition Attendance System
 
 A modern, AI-powered attendance management system that uses advanced facial recognition technology to automate student attendance tracking. Built with Django REST Framework and React.js, featuring real-time face detection, comprehensive analytics, and an intuitive user interface.
 
